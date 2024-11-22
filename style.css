@@ -9,4 +9,17 @@
     width: 150px;
     aspect-ratio: 1/1;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2A124C ;
+}
+i.fab{
+    font-size: 3rem;
+}
+.hidden>i{
+    display: none !important;
+}
+.freez{
+    pointer-events: none;
 }
